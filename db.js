@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 
 // Define the Mongoose connection URL
-const mongoURL = 'mongodb://localhost:27017/restaurant';
+// const mongoURL = 'mongodb://localhost:27017/restaurant';
+const mongoURL = 'mongodb+srv://dpsingh:dpsingh27@dpsingh27.xjiot7l.mongodb.net/';
 
 // Set Up Mongoose Connection
 mongoose.connect(mongoURL, { useNewUrlParser: true, useUnifiedTopology: true });
